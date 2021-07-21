@@ -13,7 +13,7 @@ class BraintreeController extends Controller
     {
         return $request->all();
     }
-
+// gdhuuk
     public function createtoken()
     {
         $merchantkey = "6zjmscqfbrqy9x7m"; //ffrom dash boardclient
